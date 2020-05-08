@@ -1,2 +1,2 @@
 # autoInstallVirtualEnv
-Auto install python package virtualenvwrapper and setting.
+I'm so lazy that I write a script to auto install python package virtualenvwrapper.
