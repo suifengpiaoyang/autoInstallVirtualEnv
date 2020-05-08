@@ -1,21 +1,4 @@
 # coding=utf-8
-"""
-一键配置 python 虚拟环境脚本
-usage :
-        python2 : python2 thismodule.py
-        or 
-        python3 : python3 thismodule.py
-notes:    
-        因为 virtualenvwrapper 涉及到改变 /root/.bashrc 的值，
-        无法同时提供 python2 和 python3 。virtualenv 是可以两个
-        版本同时安装，并且正常执行虚拟环境。但是 virtualenvwarpper
-        虚拟环境控制只能应用于一个版本。
-
-path:   myenvs
-        虚拟环境都放在该文件夹中，如果想改变该文件夹的名字，请在一开始
-        执行脚本前在该脚本里面更改。
-
-"""
 
 import os
 import re
