@@ -30,7 +30,7 @@ else:
 
 
 def judge_package(name):
-    cmd = '{} list --format=legacy| grep {}'.format(pip_command, name)
+    cmd = '{} list | grep {}'.format(pip_command, name)
     result = os.popen(cmd).read()
     if name in result:
         return True
